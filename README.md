@@ -27,7 +27,7 @@ The Protocol can be deployed via two primary rituals, depending on the required 
 
 This method provides immediate activation but is **non-persistent**; the ritual must be repeated upon every page refresh or navigation.
 
-1.  **Acquire the Magos-Prime:** Copy the **entire** source code block of the Protocol file.
+1.  **Acquire the Magos-Prime:** [🔗](https://raw.githubusercontent.com/00face/Gemini-Titan-Protocol/refs/heads/main/magos-prime.js) Copy the **entire** source code block of the Protocol file.
 2.  **Open the Inspector:** On the AI Studio page, open the Developer Console/Inspector (F12 or Ctrl+Shift+I).
 3.  **Execute the Rite:** Ensure the Console tab is selected. **Paste the entire code block** into the input area and strike **Enter**.
 
@@ -46,7 +46,7 @@ This method ensures the Protocol persists across sessions and navigation, suitab
 
 The **Local Sync Bridge** is non-functional until the companion server is running.
 
-1.  **Acquire MALONE:** Use the **About (?)** button in the Titan HUD to access the **Local Bridge** section. Click **"DOWNLOAD MALONE BRIDGE FILES"** and move the resulting `local-host.js` and `monaco.html` files to your chosen local project folder.
+1.  **Acquire MALONE:** Use the **About (?)** button in the Titan HUD to access the **Local Bridge** section. Click **"DOWNLOAD MALONE BRIDGE FILES"** and move the resulting `[local-host.js](https://raw.githubusercontent.com/00face/MALONE/refs/heads/main/local-host.js)` and `[monaco.html](https://raw.githubusercontent.com/00face/MALONE/refs/heads/main/monaco.html)` files to your chosen local project folder.
 2.  **Ignite the Server:** In that local project folder, run Node.js to activate the Bridge on port 3000:
     ```bash
     node local-host.js
