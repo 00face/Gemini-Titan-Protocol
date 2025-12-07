@@ -867,7 +867,7 @@
 
             createSection('', 'Then ignite the bridge with:');
             const simpleCmd = createEl('div', 'titan-wp-code');
-            simpleCmd.textContent = "node local-host.js";
+            simpleCmd.textContent = "node local-host.cjs"; // Testing file extension as .cjs
             abScroll.appendChild(simpleCmd);
 
             const abFooter = createEl('div', 'titan-about-footer');
